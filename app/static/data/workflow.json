@@ -1,0 +1,99 @@
+{
+  "name": "root",
+  "children": [
+    {"name": "Failure", "size": 30456},
+    {
+      "name": "Connect 1 SN",
+      "children": [
+        {"name": "Failure", "size": 12001},
+        {
+          "name": "Add 1 Stream",
+          "children": [
+            {"name": "Failure", "size": 1005},
+            {
+              "name": "Add 1+ Tabs",
+              "children": [
+                {"name": "Failure", "size": 2034},
+                {
+                  "name": "Connect 1 SN",
+                  "children": [
+                    {"name": "Failure", "size": 1005},
+                    {
+                      "name": "Add Hootlet",
+                      "children": [
+                        {"name": "Failure", "size": 905},
+                        {"name": "Success", "size": 1505}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Connect 2 SNs",
+      "children": [
+        {"name": "Failure", "size": 3001},
+        {
+          "name": "Add 1 Stream",
+          "children": [
+            {"name": "Failure", "size": 1005},
+            {
+              "name": "Add 1+ Tabs",
+              "children": [
+                {"name": "Failure", "size": 2034},
+                {
+                  "name": "Schedule 1+ Messages",
+                  "children": [
+                    {"name": "Failure", "size": 1005},
+                    {
+                      "name": "Add Hootlet",
+                      "children": [
+                        {"name": "Failure", "size": 905},
+                        {"name": "Success", "size": 1505}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Connect 3+ SNs",
+      "children": [
+        {"name": "Failure", "size": 525},
+        {
+          "name": "Add 1 Stream",
+          "children": [
+            {"name": "Failure", "size": 1005},
+            {
+              "name": "Add 1+ Tabs",
+              "children": [
+                {"name": "Failure", "size": 2034},
+                {
+                  "name": "Schedule 1+ Messages",
+                  "children": [
+                    {"name": "Failure", "size": 1005},
+                    {
+                      "name": "Add Hootlet",
+                      "children": [
+                        {"name": "Failure", "size": 905},
+                        {"name": "Success", "size": 1505}
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
