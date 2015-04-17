@@ -9,12 +9,12 @@ from wtforms.validators import DataRequired
 def index():
     form = HootputtForm()
 
-    if form.validate_on_submit():
+    if form.name:
         print 'It worked! name: %s, strokes: %s' % (form.name.data, form.strokes.data)
 
     return flask.render_template('index.html',
-      title='Hootputt',
-      form=form)
+                                 title='Hootputt',
+                                 form=form)
 
 class HootputtForm(Form):
     name = StringField('name', validators=[DataRequired()])
