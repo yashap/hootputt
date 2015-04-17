@@ -1,9 +1,22 @@
 {% extends 'base.html' %}
 
+
 {% block content %}
-<h1>There will be content here in the future, I swear!</h1>
+
+<h1>Enter Your Score</h1>
+<form action="" method="post" name="hootputt">
+  <h2>Name</h2>
+  {{ form.name(size=80) }}<br>
+  <h2>Strokes</h2>
+  {{ form.strokes(size=80) }}<br>
+  </br>
+  <input type="submit" value="Submit">
+
 {% endblock %}
 
+
 {% block js %}
+
   <script src="{{ url_for('static', filename='js/hootputt.js') }}"></script>
+
 {% endblock %}
